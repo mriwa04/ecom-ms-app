@@ -1,0 +1,11 @@
+package org.example.billingservice.model;
+import lombok.Getter;
+import lombok.Setter;
+
+@Setter
+public class Product {
+    private Long id;
+    private String name;
+    private double price;
+    private int quantity;
+}
